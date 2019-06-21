@@ -20,6 +20,7 @@ Emma (https://myemma.com/) - is an email marketing platform that allows to send 
 - download the Python Emma Wrapper API from https://github.com/myemma/EmmaPython, and unzip it in a directory of your preference. You should see EmmaPython-master folder unzipped
 - put Emma_OptOut_Script.py into EmmaPython-master directory. This will help with importing Emma's packages properly
 - have your CSV with emails you want to check in EmmaPython-master directory as well
+- have your API key ready (https://settings.e2ma.net/account/api-key) and modify the script - line 15 - as per your account's keys. If your Key is wrong, you will get Authentication Error.
 - run Command Prompt in same directory and type "python Emma_OptOut_Script.py " followed by the name of your CSV file with emails (i.e: "Errors_List_from_Emma.csv")
 - the example of exact command is then "python Emma_OptOut_Script.py Errors_List_from_Emma.csv"
 - the script should run and generate the "Invalid_Emma_emails_timestamp.csv" file in the Same directory
