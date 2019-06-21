@@ -21,6 +21,7 @@ Emma (https://myemma.com/) - is an email marketing platform that allows to send 
 - put Emma_OptOut_Script.py into EmmaPython-master directory. This will help with importing Emma's packages properly
 - have your CSV with emails you want to check in EmmaPython-master directory as well
 - run Command Prompt in same directory and type "python Emma_OptOut_Script.py " followed by the name of your CSV file with emails (i.e: "Errors_List_from_Emma.csv")
+- the example of exact command is then "python Emma_OptOut_Script.py Errors_List_from_Emma.csv"
 - the script should run and generate the "Invalid_Emma_emails_timestamp.csv" file in the Same directory
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
